@@ -104,6 +104,162 @@ export default function ExamplesPage() {
             </Card>
           </section>
 
+          {/* Dashboard Demo Section */}
+          <section id="dashboard-demo" className="mb-16">
+            <h2 className="text-2xl font-bold text-foreground mb-8">Full Dashboard Demo</h2>
+            <Card>
+              <CardHeader>
+                <CardTitle>Complete Dashboard Layout</CardTitle>
+                <CardDescription>
+                  A comprehensive dashboard showing all the components working together.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-6">
+                  {/* Header Stats */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <Card>
+                      <CardHeader className="pb-2">
+                        <div className="flex items-center justify-between">
+                          <CardTitle className="text-sm font-medium">Total Revenue</CardTitle>
+                          <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+                            <span className="text-green-600 text-sm font-bold">$</span>
+                          </div>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="text-2xl font-bold">$45,231</div>
+                        <p className="text-xs text-green-600">
+                          +20.1% from last month
+                        </p>
+                      </CardContent>
+                    </Card>
+
+                    <Card>
+                      <CardHeader className="pb-2">
+                        <div className="flex items-center justify-between">
+                          <CardTitle className="text-sm font-medium">Active Users</CardTitle>
+                          <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+                            <User className="h-4 w-4 text-blue-600" />
+                          </div>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="text-2xl font-bold">2,350</div>
+                        <p className="text-xs text-blue-600">
+                          +180.1% from last month
+                        </p>
+                      </CardContent>
+                    </Card>
+
+                    <Card>
+                      <CardHeader className="pb-2">
+                        <div className="flex items-center justify-between">
+                          <CardTitle className="text-sm font-medium">Sales</CardTitle>
+                          <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <span className="text-purple-600 text-sm font-bold">📈</span>
+                          </div>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="text-2xl font-bold">12,234</div>
+                        <p className="text-xs text-purple-600">
+                          +19% from last month
+                        </p>
+                      </CardContent>
+                    </Card>
+
+                    <Card>
+                      <CardHeader className="pb-2">
+                        <div className="flex items-center justify-between">
+                          <CardTitle className="text-sm font-medium">Pending</CardTitle>
+                          <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
+                            <span className="text-orange-600 text-sm font-bold">⏳</span>
+                          </div>
+                        </div>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="text-2xl font-bold">573</div>
+                        <p className="text-xs text-orange-600">
+                          +201 since last hour
+                        </p>
+                      </CardContent>
+                    </Card>
+                  </div>
+
+                  {/* Recent Activity */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>Recent Activity</CardTitle>
+                        <CardDescription>
+                          Latest updates and notifications
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="space-y-4">
+                          <div className="flex items-center space-x-4">
+                            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                            <div className="flex-1">
+                              <p className="text-sm font-medium">Payment received</p>
+                              <p className="text-xs text-muted-foreground">2 minutes ago</p>
+                            </div>
+                            <span className="text-sm font-medium">$2,500</span>
+                          </div>
+                          <div className="flex items-center space-x-4">
+                            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <div className="flex-1">
+                              <p className="text-sm font-medium">New user registered</p>
+                              <p className="text-xs text-muted-foreground">5 minutes ago</p>
+                            </div>
+                            <span className="text-sm font-medium">John Doe</span>
+                          </div>
+                          <div className="flex items-center space-x-4">
+                            <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                            <div className="flex-1">
+                              <p className="text-sm font-medium">Order shipped</p>
+                              <p className="text-xs text-muted-foreground">1 hour ago</p>
+                            </div>
+                            <span className="text-sm font-medium">#12345</span>
+                          </div>
+                        </div>
+                      </CardContent>
+                    </Card>
+
+                    <Card>
+                      <CardHeader>
+                        <CardTitle>Quick Actions</CardTitle>
+                        <CardDescription>
+                          Common tasks and shortcuts
+                        </CardDescription>
+                      </CardHeader>
+                      <CardContent>
+                        <div className="grid grid-cols-2 gap-3">
+                          <Button variant="outline" size="sm" className="h-auto p-3 flex-col">
+                            <User className="h-4 w-4 mb-1" />
+                            <span className="text-xs">Add User</span>
+                          </Button>
+                          <Button variant="outline" size="sm" className="h-auto p-3 flex-col">
+                            <Mail className="h-4 w-4 mb-1" />
+                            <span className="text-xs">Send Email</span>
+                          </Button>
+                          <Button variant="outline" size="sm" className="h-auto p-3 flex-col">
+                            <Calendar className="h-4 w-4 mb-1" />
+                            <span className="text-xs">Schedule</span>
+                          </Button>
+                          <Button variant="outline" size="sm" className="h-auto p-3 flex-col">
+                            <Settings className="h-4 w-4 mb-1" />
+                            <span className="text-xs">Settings</span>
+                          </Button>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  </div>
+                </div>
+                             </CardContent>
+             </Card>
+           </section>
+
           {/* Form Example */}
           <section className="mb-16">
             <h2 className="text-2xl font-bold text-foreground mb-8">Contact Form</h2>
