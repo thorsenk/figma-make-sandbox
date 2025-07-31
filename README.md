@@ -19,10 +19,6 @@ This repository captures that exact starting state to help developers:
 - **Accelerate development** - Leverage the full foundation provided
 - **Understand capabilities** - See the scope of Figma Make's built-in tooling
 
-## 🚀 **Live Demo**
-
-Visit the live application: [http://localhost:3000](http://localhost:3000)
-
 ## 📁 What's Included
 
 ### Minimal Application Entry Point
@@ -125,6 +121,8 @@ styles/
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
+
+**Note**: This is a local development sandbox for learning Figma Make patterns. For a live demo, you would typically deploy this to a platform like Vercel, Netlify, or GitHub Pages.
 
 ## 📖 **Available Pages**
 
