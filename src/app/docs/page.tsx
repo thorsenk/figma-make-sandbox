@@ -147,7 +147,7 @@ npm run dev
               <CardHeader>
                 <CardTitle>Folder Organization</CardTitle>
                 <CardDescription>
-                  Understanding the project's folder structure and organization patterns.
+                  Understanding the project&apos;s folder structure and organization patterns.
                 </CardDescription>
               </CardHeader>
               <CardContent>

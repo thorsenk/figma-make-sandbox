@@ -46,7 +46,7 @@ export function Layout({ children, className }: LayoutProps) {
               © 2025 Figma Make Sandbox. Built for learning and experimentation.
             </p>
             <p className="mt-2">
-              Understanding Figma Make's folder structure and best practices.
+              Understanding Figma Make&apos;s folder structure and best practices.
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowRight, Code, Palette, BookOpen, Zap } from "lucide-react"
 import Link from "next/link"
 
@@ -14,7 +14,7 @@ export default function HomePage() {
             Figma Make Sandbox
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Understanding Figma Make's folder structure and best practices.
+            Understanding Figma Make&apos;s folder structure and best practices.
             A comprehensive learning environment for exploring modern web development patterns.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -39,10 +39,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-4">
-              What's Inside
+              What&apos;s Inside
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Everything you need to understand and experiment with Figma Make's development patterns.
+              Everything you need to understand and experiment with Figma Make&apos;s development patterns.
             </p>
           </div>
 

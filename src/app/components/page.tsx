@@ -220,7 +220,7 @@ export default function ComponentsPage() {
                 </div>
                 <p className="text-sm text-muted-foreground">
                   All components are built with TypeScript and include proper type definitions.
-                  They're designed to be composable and customizable to fit your design system.
+                  They&apos;re designed to be composable and customizable to fit your design system.
                 </p>
 
                 <div className="flex items-center space-x-2">

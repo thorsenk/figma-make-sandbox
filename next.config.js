@@ -9,10 +9,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false,
   },
-  // Ensure we're using App Router and not Pages Router
-  experimental: {
-    appDir: true,
-  },
 }
+
+module.exports = nextConfig
 
 module.exports = nextConfig
