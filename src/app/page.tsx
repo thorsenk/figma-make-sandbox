@@ -14,7 +14,7 @@ export default function HomePage() {
             Figma Make Sandbox
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Understanding Figma Make's folder structure and best practices. 
+            Understanding Figma Make's folder structure and best practices.
             A comprehensive learning environment for exploring modern web development patterns.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -133,4 +133,4 @@ export default function HomePage() {
       </section>
     </Layout>
   )
-} 
+}

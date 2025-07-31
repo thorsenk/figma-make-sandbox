@@ -5,7 +5,7 @@ export interface BaseComponentProps {
 }
 
 // Button Variants
-export type ButtonVariant = 
+export type ButtonVariant =
   | "default"
   | "destructive"
   | "outline"
@@ -81,4 +81,4 @@ export interface Project {
   updatedAt: Date;
   createdBy: string;
   collaborators?: string[];
-} 
+}

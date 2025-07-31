@@ -90,4 +90,4 @@ If you have any questions or need help, please:
 2. Look at existing examples
 3. Open an issue on GitHub
 
-Happy coding! 🚀 
+Happy coding! 🚀

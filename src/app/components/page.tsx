@@ -37,7 +37,7 @@ export default function ComponentsPage() {
                   <Button variant="ghost">Ghost</Button>
                   <Button variant="link">Link</Button>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-4">
                   <Button size="sm">Small</Button>
                   <Button size="default">Default</Button>
@@ -122,7 +122,7 @@ export default function ComponentsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-4">
-                  The navigation component is already visible at the top of this page. 
+                  The navigation component is already visible at the top of this page.
                   It includes responsive design, active state management, and mobile menu functionality.
                 </p>
                 <div className="bg-muted/50 rounded-lg p-4">
@@ -177,13 +177,13 @@ export default function ComponentsPage() {
                 </CardHeader>
                 <CardContent>
                   <pre className="bg-muted/50 rounded-lg p-4 text-sm overflow-x-auto">
-{`import { 
-  Card, 
-  CardHeader, 
-  CardTitle, 
-  CardDescription, 
-  CardContent, 
-  CardFooter 
+{`import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter
 } from "@/components/ui/card"
 
 <Card>
@@ -219,16 +219,16 @@ export default function ComponentsPage() {
                   <span className="font-medium">Quick Start</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  All components are built with TypeScript and include proper type definitions. 
+                  All components are built with TypeScript and include proper type definitions.
                   They're designed to be composable and customizable to fit your design system.
                 </p>
-                
+
                 <div className="flex items-center space-x-2">
                   <Download className="h-5 w-5 text-primary" />
                   <span className="font-medium">Installation</span>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Components use Tailwind CSS for styling and Radix UI for accessibility. 
+                  Components use Tailwind CSS for styling and Radix UI for accessibility.
                   Make sure to install the required dependencies.
                 </p>
               </CardContent>
@@ -238,4 +238,4 @@ export default function ComponentsPage() {
       </div>
     </Layout>
   )
-} 
+}

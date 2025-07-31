@@ -98,4 +98,4 @@ export function Navigation({ items, className }: NavigationProps) {
       )}
     </nav>
   )
-} 
+}

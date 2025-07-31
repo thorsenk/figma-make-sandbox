@@ -278,4 +278,4 @@ export { Badge, badgeVariants }
 - [Radix UI Documentation](https://www.radix-ui.com/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-- [React Documentation](https://react.dev/) 
+- [React Documentation](https://react.dev/)
